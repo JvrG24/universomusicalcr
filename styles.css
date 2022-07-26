@@ -1,0 +1,219 @@
+body{
+    background-image: url(https://i.pinimg.com/736x/f7/88/66/f788661193100830d18b2159f2fc2e83.jpg);
+    font-family: sans-serif;
+}
+
+#header{
+    display: flex;
+    background-color: white;
+    min-height:110px ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 4px dotted black;
+    border-radius: 2rem;
+
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+#todoelcontenido{
+    padding-top: 10rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+#header-img{
+    height: 150px;
+    margin-right: 15px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+.nav-link:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+#container{
+    width: 600px;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#form{
+    background-color white;
+    opacity: 1;
+    border: 4px solid black;
+    margin: 1rem 0;
+    border-radius:2rem;
+    padding: 2rem 4rem;
+}
+
+#email{
+    display: inline;
+    max-width: 100%;
+    height: auto;
+    padding: 0.25rem 0.75rem;
+    border: 3px solid black;
+    border-radius: 0.50rem;
+    font-size: 20px;
+}
+
+#submit{
+    background-color: yellow;
+    max-width: 50%;
+    height: auto;
+    padding: 0.25rem 0.75rem;
+    border: 2.5px solid black;
+    border-radius: 0.50rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#container2{
+    width: 500px;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    text-align: justify;
+    border:3px solid white;
+}
+
+#persona{
+    height: 100px;
+    float: left;
+    padding-right: 20px;
+}
+
+#carro{
+    height: 100px;
+    float: left;
+    padding-right: 20px;
+}
+
+#calidad{
+    height: 100px;
+    float: left;
+    padding-right: 20px;
+}
+
+#parrafos{
+    font-size: 20px;
+}
+
+#videotodo{
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#container-todos{
+    width: 75rem;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    text-align: justify;
+}
+
+#container-left{
+    margin: 0 auto;
+    width: 350px;
+    height: auto;
+    text-align: center;
+    border:3px solid black;
+    float: left;
+    padding-bottom: 10px;
+}
+
+#container-right{
+    margin: 0 auto;
+    width: 350px;
+    height: auto;
+    text-align: center;
+    border:3px solid black;
+    float: center;
+    padding-bottom: 10px;
+}
+
+#container-center{
+    margin: 0 auto;
+    width: 350px;
+    height: auto;
+    text-align: center;
+    border:3px solid black;
+    float: right;
+    padding-bottom: 10px;
+}
+
+.product{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pianos-titulos{
+    background-color: rgb(205, 205, 205);
+    margin-top: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.titulos{
+    text-align: center;
+}
+
+#footer{
+    width: 1500px;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    border: 4px solid black;
+    background-color: rgb(214, 214, 214);
+}
+
+#titulo-final{
+    text-align: center;
+}
+
+#parrafo-final{
+    text-align: justify;
+    padding: 0 40px 0 40px;
+}
+
+#bar-final{
+    display: flex;
+    padding: 10px;
+}
+
+#ultimo{
+    text-align: right;
+    padding-right: 20px;
+}
